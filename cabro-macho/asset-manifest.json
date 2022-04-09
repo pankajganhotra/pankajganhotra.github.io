@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/cabro-macho/static/css/main.3d154089.css",
+    "main.js": "/cabro-macho/static/js/main.01a72b1e.js",
+    "static/js/273.8290ce63.chunk.js": "/cabro-macho/static/js/273.8290ce63.chunk.js",
+    "static/js/946.aecbc539.chunk.js": "/cabro-macho/static/js/946.aecbc539.chunk.js",
+    "static/js/722.59d38eb8.chunk.js": "/cabro-macho/static/js/722.59d38eb8.chunk.js",
+    "static/js/725.f27a585d.chunk.js": "/cabro-macho/static/js/725.f27a585d.chunk.js",
+    "static/js/27.fd96cdfc.chunk.js": "/cabro-macho/static/js/27.fd96cdfc.chunk.js",
+    "static/js/163.fc54494f.chunk.js": "/cabro-macho/static/js/163.fc54494f.chunk.js",
+    "static/js/777.a6857a3e.chunk.js": "/cabro-macho/static/js/777.a6857a3e.chunk.js",
+    "static/js/321.443f525e.chunk.js": "/cabro-macho/static/js/321.443f525e.chunk.js",
+    "static/js/718.63877859.chunk.js": "/cabro-macho/static/js/718.63877859.chunk.js",
+    "index.html": "/cabro-macho/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.3d154089.css",
+    "static/js/main.01a72b1e.js"
+  ]
+}
