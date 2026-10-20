@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kafila Run Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  /* Layout: single reading column, game-palette header band, plain policy text below */
+  :root {
+    --bg: #FBF8F4;
+    --fg: #22282B;
+    --muted: #5C6468;
+    --rule: #E6DED4;
+    --band: #EE7205;
+    --band-fg: #FFFFFF;
+    --accent: #1F7F74;
+    --chip-bg: #E3F1EF;
+    --font-display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+    --font-body: "Source Serif 4", Georgia, "Times New Roman", serif;
+    --font-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #15191B; --fg: #E9E5DF; --muted: #A3A9AC; --rule: #2C3337;
+      --band: #B85404; --band-fg: #FFF6EE; --accent: #5CC2B5; --chip-bg: #1E3532;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #15191B; --fg: #E9E5DF; --muted: #A3A9AC; --rule: #2C3337;
+    --band: #B85404; --band-fg: #FFF6EE; --accent: #5CC2B5; --chip-bg: #1E3532;
+    color-scheme: dark;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 17px; line-height: 1.62; }
+
+  .band { background: var(--band); color: var(--band-fg); }
+  .wrap {
+    max-width: 680px; margin: 0 auto;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+  .band .wrap { padding-block: 44px 36px; display: grid; gap: 10px; }
+  .eyebrow { font-family: var(--font-mono); font-size: 12.5px; letter-spacing: 0.08em; text-transform: uppercase; opacity: 0.9; }
+  h1 { font-family: var(--font-display); font-weight: 800; font-size: clamp(30px, 6vw, 42px); line-height: 1.08; margin: 0; text-wrap: balance; letter-spacing: -0.01em; }
+  .meta { font-family: var(--font-mono); font-size: 13px; display: flex; flex-wrap: wrap; gap: 6px 18px; opacity: 0.92; }
+
+  main .wrap { padding-block: 36px 64px; display: grid; gap: 34px; }
+
+  .summary { border: 1px solid var(--rule); border-radius: 10px; padding: 20px 22px; display: grid; gap: 12px; }
+  .summary h2 { margin: 0; }
+  .facts { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+  .facts li { display: grid; grid-template-columns: auto 1fr; gap: 12px; align-items: baseline; }
+  .chip { font-family: var(--font-mono); font-size: 12px; font-weight: 500; letter-spacing: 0.04em; text-transform: uppercase; background: var(--chip-bg); color: var(--accent); padding: 2px 8px; border-radius: 4px; min-width: 44px; text-align: center; }
+
+  section { display: grid; gap: 10px; }
+  h2 { font-family: var(--font-display); font-weight: 700; font-size: 21px; line-height: 1.25; margin: 0; text-wrap: balance; }
+  p, ul { margin: 0; }
+  ul { padding-left: 1.2em; display: grid; gap: 6px; }
+  code { font-family: var(--font-mono); font-size: 0.86em; background: var(--chip-bg); color: var(--fg); padding: 1px 5px; border-radius: 4px; overflow-wrap: anywhere; }
+  .muted { color: var(--muted); }
+  a { color: var(--accent); text-underline-offset: 3px; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+
+  footer { border-top: 1px solid var(--rule); padding-top: 18px; font-family: var(--font-mono); font-size: 13px; color: var(--muted); }
+</style>
+</head>
+<body>
+
+<header class="band">
+  <div class="wrap">
+    <div class="eyebrow">Kafila Run · Android</div>
+    <h1>Privacy Policy</h1>
+    <div class="meta">
+      <span>Effective 20 October 2026</span>
+      <span>App ID com.kafilarun.game</span>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="summary" aria-labelledby="summary-h">
+      <h2 id="summary-h">In short</h2>
+      <ul class="facts">
+        <li><span class="chip">None</span><span>Personal data collected, sold or shared.</span></li>
+        <li><span class="chip">None</span><span>Network access. The app has no internet permission and never connects to a server.</span></li>
+        <li><span class="chip">None</span><span>Ads, analytics, tracking, crash reporting or accounts.</span></li>
+        <li><span class="chip">Local</span><span>Your best score, saved on your own device only.</span></li>
+      </ul>
+    </div>
+
+    <section>
+      <h2>Who this covers</h2>
+      <p>This policy covers Kafila Run, a 3-lane endless runner game for Android, published on Google Play under the package name <code>com.kafilarun.game</code>. "We" means the developer of Kafila Run.</p>
+    </section>
+
+    <section>
+      <h2>Information we collect</h2>
+      <p>We do not collect any personal or device information. Kafila Run does not ask for your name, email address, location, contacts, photos, device identifiers or any other data, and it requests no Android permissions that could access them.</p>
+    </section>
+
+    <section>
+      <h2>Information stored on your device</h2>
+      <p>The game saves one number: your highest score, so it is still there the next time you play. It is kept in the app's private storage on your phone and is never sent anywhere.</p>
+      <p>You can delete it at any time by clearing the app's storage in Android Settings, or by uninstalling the game.</p>
+    </section>
+
+    <section>
+      <h2>Network, ads and third parties</h2>
+      <p>Kafila Run works entirely offline. It contains no advertising, analytics or crash-reporting software, and no third-party code that collects data. Because the app sends nothing, there is nothing for us to share with or sell to anyone.</p>
+      <p class="muted">Google Play itself handles downloads, updates and any reviews you post, under <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>. We do not receive personal information about you from that process.</p>
+    </section>
+
+    <section>
+      <h2>Children</h2>
+      <p>The game collects no information from anyone, including children under 13. No personal information is gathered at any age.</p>
+    </section>
+
+    <section>
+      <h2>Changes to this policy</h2>
+      <p>If a future version of the game changes how it handles data, for example by adding online features, we will update this page and its effective date before that version is released. The updated policy will also be linked from the app's Google Play listing.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>For questions about this policy, use the developer email address shown in the "App support" section of Kafila Run's Google Play listing.</p>
+    </section>
+
+    <footer>Kafila Run Privacy Policy · effective 20 October 2026</footer>
+  </div>
+</main>
+</body>
+</html>
